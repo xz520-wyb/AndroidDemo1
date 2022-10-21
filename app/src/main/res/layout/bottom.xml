@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/tab_vx"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#989592"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_WeChat"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#989592"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:saveEnabled="false"
+            android:text="微信"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_frd"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#989592"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_friend"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#989592"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:saveEnabled="false"
+            android:text="通讯录"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_contact"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#989592"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_discovery"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#989592"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:saveEnabled="false"
+            android:text="发现"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_user"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#989592"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_user"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#989592"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:saveEnabled="false"
+            android:text="我"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
