@@ -17,7 +17,7 @@ public class Activity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
         Intent intent=getIntent();
-        intent.putExtra("data","今天天气晴,\n"+"当前时间为："+ Calendar.getInstance().getTime());
+        intent.putExtra("data","今天天气小雨,\n"+"当前时间为："+ Calendar.getInstance().getTime());
         setResult(2,intent);
         finish();
     }
